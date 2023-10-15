@@ -98,16 +98,75 @@
                         <label class="form-check-label">Shipping address is the same as my billing address</label>
                     </div>
                     <hr>
+                    <h4>Payment</h4>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input">
+                        <label class="form-check-label">Credit Card</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input">
+                        <label class="form-check-label">Debit Card</label>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="from-label" for="cardname">Name on Card</label>
+                            <input type="text" id="cardname" class="form-control">
+                            <small class="text-muted">Full name as displayed on card</small>
+                        </div>
+                        <div class="col-6">
+                            <label class="from-label" for="creditcard">Credit Card Number</label>
+                            <input type="text" id="creditcard" class="form-control">
+                        </div>
+                        <div class="col-3">
+                            <label class="from-label" for="expiration">Expiration</label>
+                            <input type="text" id="expiration" class="form-control">
+                        </div>
+                        <div class="col-3">
+                            <label class="from-label" for="cvv">CVV</label>
+                            <input type="text" id="cvv" class="form-control">
+                        </div>
+                    </div>
+                    <hr>
+                    <button type="submit" class="btn btn-primary btn-block">Continue to Checkout</button>
                 </form>
+            </div>
+            <div class="col-4">
+                 <h4 class="d-flex justify-content-between align-item-center">
+                    <span class="text-muted">Your Cart</span>
+                    <span class="badge bg-secondary rounded-pill">3</span>
+                 </h4>
+                 <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6>La Vida Es Fria</h6>
+                            <span class="text-muted">Jason Joshua</span>
+                        </div>
+                        <span class="text-muted">$0.50</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6>Amtrak</h6>
+                            <span class="text-muted">Los Retros</span>
+                        </div>
+                        <span class="text-muted">$0.50</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6>Palisades,CA</h6>
+                            <span class="text-muted">Larry June & Big Sean</span>
+                        </div>
+                        <span class="text-muted">$0.50</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6>Total</h6>
+                        </div>
+                        <span>$1.50</span>
+                    </li>
+                 </ul>
             </div>
         </div>
         
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
